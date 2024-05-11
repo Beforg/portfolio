@@ -6,51 +6,143 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="icon" href="images/ico.png">
+    <script src="script.js" defer></script>
     <title>PORTFOLIO</title>
 </head>
 <body>
     <header class="cabecalho">
         <div class="container">
-            <h1 class="container__titulo">@Beforg</h1>
-        </div>
-        <div class="container">
-            <a href="https://github.com/Beforg"><img src="images/github.png" alt="Logo GitHub"  width="45px" class="container__imagem"></a>
-            <a href="https://www.linkedin.com/in/bruno-benitez-forgiarini-986b20262/"><img src="images/linkedin.png" alt="Logo LinkedIn" class="container__imagem"></a>
-            <a href="https://www.instagram.com/brunoforgiarini_/"><img src="images/instagram.png" alt="Logo Instagram" class="container__imagem"></a>
+            <a class="container__item-menu" href="./index.html">Início</a>
+            <a class ="container__item-menu" href="./about.html">Sobre mim</a>
+            <a class ="container__item-menu" href="./projects.html">Projetos</a>
         </div>
     </header>
     <section class="principal">
         <div class="principal__container">
             <h2 class="principal__titulo">Bem-vindo ao meu portfólio</h2>
-            <p class="principal__texto">Olá, meu nome é Bruno, sou um desenvolvedor Java e estudante de <strong class="strong_text0">Análise e Desenvolvimento de Sistemas</strong>. Aqui você encontrará alguns dos meus projetos e trabalhos. Fique a vontade para explorar e conhecer um pouco mais sobre mim.</p>
+        </div>
+        <div class="principal__central">
+            <p class="principal__texto">Olá, meu nome é Bruno, sou um desenvolvedor Back-End e estudante de <strong class="strong_text0">Ciência da Computação</strong>. Aqui você encontrará alguns dos meus projetos e trabalhos. Fique a vontade para explorar e conhecer um pouco mais sobre mim.</p>
             <img src="images/my.jpg" alt="Foto de Bruno" class="principal__imagem">
         </div>
     </section>
-    <section class="sobre">
-        <div class="sobre__container">
-            <h2 class="sobre__titulo">Sobre mim:</h2>
-            <p class="sobre__texto">Apaixonado por aprender novos conhecimentos e exercitar a criatividade desenvolvendo projetos. Natural de Santana do Livramento-RS, tenho 22 anos e curso o segundo semestre de Análise e Desenvolvimento de Sistemas no IFSul - Câmpus Sant'Ana do Livramento. Minha linguagem principal é Java, na qual tenho grande paixão em aprender cada dia mais. Também possuo conhecimentos básicos em Python, HTML, CSS, MySQL e PostgreSQL.</p>
+    <section class="formacao">
+        <div class="formacao__topo">
+            <h2 class="formacao__titulo">Formação e Cursos:</h2>
+        </div>
+        <div class="formacao__itens">
+            <div class="formacao__cursos">
+                <p class="formacao__itens-curso">Ciência da Computação (Unipampa)<br><strong class="formacao__itens-texto-data">ago. 2024 - atualmente</strong></p>
+                <p class="formacao__itens-curso">Análise e Desenvolvimento de Sistemas (IFSul)<br><strong class="formacao__itens-texto-data">jul. 2023 - jul. 2024</strong></p>
+            </div>
+            <ul class="formacao__itens-lista">
+                <li class="formacao__itens-item">
+                    <a class="link-cur" href="https://cursos.alura.com.br/user/bruno-capsqn/degree-programacao-v531534-531534/certificate" target="_blank">
+                        <h3 class="formacao__itens-titulo">Programação</h3>
+                        <p class="formacao__itens-texto">Iniciante em Programação</p>
+                        <p class="formacao__itens-texto-data"><strong>07/04/2023</strong></p>
+                    </a>
+                </li>
+                <li class="formacao__itens-item">
+                    <a class="link-cur" href="https://cursos.alura.com.br/user/bruno-capsqn/degree-java-568827/certificate" target="_blank">
+                        <h3 class="formacao__itens-titulo">Programação</h3>
+                        <p class="formacao__itens-texto">Java e Orientação a Objetos</p>
+                        <p class="formacao__itens-texto-data"><strong>02/09/2023</strong></p>
+                    </a>
+                </li>
+                <li class="formacao__itens-item">
+                    <a class="link-cur" href="https://cursos.alura.com.br/user/bruno-capsqn/degree-banco-dados-java-564646/certificate" target="_blank">
+                        <h3 class="formacao__itens-titulo">Programação</h3>
+                        <p class="formacao__itens-texto"> Integração Java e <br>Banco de Dados</p>
+                        <p class="formacao__itens-texto-data"><strong>13/02/2024</strong></p>
+                    </a>
+                </li>
+                <li class="formacao__itens-item">
+                    <a class="link-cur" href="https://cursos.alura.com.br/user/bruno-capsqn/degree-html-css-v527396-527396/certificate" target="_blank">
+                        <h3 class="formacao__itens-titulo">Front-End</h3>
+                        <p class="formacao__itens-texto"> HTML e CSS para <br>projetos Web</p>
+                        <p class="formacao__itens-texto-data"><strong>04/03/2024</strong></p>
+                    </a>
+                </li>
+                <li class="formacao__itens-item">
+                    <a class="link-cur" href="https://cursos.alura.com.br/user/bruno-capsqn/degree-java-web-spring-boot-596328/certificate" target="_blank">
+                        <h3 class="formacao__itens-titulo">Programação</h3>
+                        <p class="formacao__itens-texto"> Java Web: <br>Aplicações com Spring Boot</p>
+                        <p class="formacao__itens-texto-data"><strong>13/03/2024</strong></p>
+                    </a>
+                </li>
+                <li class="formacao__itens-item">
+                    <a class="link-cur" href="https://cursos.alura.com.br/user/bruno-capsqn/degree-modelagem-dados-697622/certificate" target="_blank">
+                        <h3 class="formacao__itens-titulo">Data-Science</h3>
+                        <p class="formacao__itens-texto"> Modelagem de Dados</p>
+                        <p class="formacao__itens-texto-data"><strong>07/04/2024</strong></p>
+                    </a>
+                </li>
+                <li class="formacao__itens-item">
+                    <a class="link-cur" href="https://cursos.alura.com.br/user/bruno-capsqn/degree-spring-boot-3-475714/certificate" target="_blank">
+                        <h3 class="formacao__itens-titulo">Programação</h3>
+                        <p class="formacao__itens-texto"> Java e Spring Boot</p>
+                        <p class="formacao__itens-texto-data"><strong>15/04/2024</strong></p>
+                    </a>
+                </li>
+                <li class="formacao__itens-item">
+                    <a class="link-cur" href="https://cursos.alura.com.br/user/bruno-capsqn/degree-c-sharp-orientacao-objetos-596248/certificate" target="_blank">
+                        <h3 class="formacao__itens-titulo">Programação</h3>
+                        <p class="formacao__itens-texto"> C# e <br>Orientação a Objetos</p>
+                        <p class="formacao__itens-texto-data"><strong>29/04/2024</strong></p>
+                    </a>
+                </li>
+                <li class="formacao__itens-item">
+                    <a class="link-cur" href="https://cursos.alura.com.br/user/bruno-capsqn/degree-boas-praticas-java-663517/certificate" target="_blank"></a>
+                        <h3 class="formacao__itens-titulo">Programação</h3>
+                        <p class="formacao__itens-texto"> Boas práticas em Java</p>
+                        <p class="formacao__itens-texto-data"><strong>03/05/2024</strong></p>
+                </li>
+                <li class="formacao__itens-item">
+                    <a class="link-cur" href="https://cursos.alura.com.br/user/bruno-capsqn/degree-avancando-c-sharp-424105/certificate" target="_blank">
+                        <h3 class="formacao__itens-titulo">Programação</h3>
+                        <p class="formacao__itens-texto"> C# e Orientação a Objetos: <br>Coleções, Arquivos <br>e Bibliotecas</p>
+                        <p class="formacao__itens-texto-data"><strong>05/05/2024</strong></p>
+                    </a>
+                </li>
+            </ul>
         </div>
     </section>
     <section class="projetos">
         <div class="projetos__container">
-            <h2 class="projetos__titulo">Projetos:</h2>
-            <ul class="projetos__lista">
-                <li class="projetos__item"><a href="https://github.com/Beforg/AtendimentosAPP">Atendimentos App(Java)</a></li>
-                <li class="projetos__item"><a href="https://github.com/Beforg/Banco">Bank (Java e MySQL)</a></li>
-                <li class="projetos__item"><a href="https://github.com/Beforg/BuscaFIPE">Buscador Fipe (Java e Spring)</a></li>
-                <li class="projetos__item"><a href="https://github.com/Beforg/BookstoreApp">BookstoreApp (Java,Spring e PostgreSQL)</a></li>
-                <li class="projetos__item"><a href="https://github.com/Beforg/LifeSync">LifeSync(Java,Spring Boot e HSQLDB)</a>
-                <li class="projetos__item"><a href="https://github.com/Beforg/API-Basic">API(Java, Spring, Insomnia e PostgreSQL)</a>
-            </ul>
+            <h2 class="projetos__titulo">Projetos em destaque:</h2>
+            <button class="projetos__botoes" id="botao-lifesync"><strong class="destaque-botao">LifeSync</strong> | Java, HSQLDB e Spring Framework |</button>
+            <div class="hide" id="projeto-lifesync">
+                <img class="projetos__imagem" src="./images/life-sync.png" alt="Imagem do  projeto LifeSync">
+                <p class="projetos__texto">Projeto desenvolvido utilizando a Linguagem Java, na IDE Intellij Ultimate, a aplicação é voltada
+                    para a organização de tarefas, estudos, treinos, projetos e finanças.<br> 
+                    Você pode acessar o repositório do projeto clicando <a href="https://github.com/Beforg/LifeSync" class="projetos__texto-link">aqui</a>.
+                </p>
+            </div>
+            <button class="projetos__botoes" id="botao-bookstore"><strong class="destaque-botao">BookstoreApp</strong> | Java, PostgreSQL e Spring Framework |</button>
+            <div class="hide" id="projeto-bookstore">
+                <img class="projetos__imagem" src="./images/bookstore.png" alt="Imagem do  projeto Bookstore">
+                <p class="projetos__texto">Projeto desenvolvido utilizando a Linguagem Java, na IDE Intellij Ultimate, a aplicação tem o intuito
+                    de organizar leituras e autores, projeto baseado nos cursos da Alura de Java e Spring Boot.<br> 
+                    Você pode acessar o repositório do projeto clicando <a href="https://github.com/Beforg/BookstoreApp" class="projetos__texto-link">aqui</a>.
+                </p>
+            </div>
+            <button class="projetos__botoes" id="botao-atendimentosapp"><strong class="destaque-botao">AtendimentosAPP</strong> | Java e JavaFX |</button>
+            <div class="hide" id="projeto-atendimentosapp">
+                <p class="projetos__texto">Projeto desenvolvido utilizando a Linguagem Java, na IDE Intellij Community, a aplicação teve o intuito
+                    de organizar os atendimentos de um comércio, registrando os pedidos dos clientes, feito para auxiliar no fechamento do caixa.<br> 
+                    Você pode acessar o repositório do projeto clicando <a href="https://github.com/Beforg/AtendimentosAPP" class="projetos__texto-link">aqui</a>.
+                </p>
+            </div>
         </div>
     </section>
-<footer class="rodape">
-    <div class="rodape__container">
-        <p class="rodape__texto">Desenvolvido por Bruno Forgiarini</p>
-        <p class="rodape__email"><img class="rodape__imagem" src="images/email.png" alt="Logo do email"> bruno.capsqn@gmail.com</p>
-        <p class="rodape__icones">Ícones usados: <a class="rodape__icones_link" href="https://www.flaticon.com/br/">Flaticon</a></p>
-    </div>
-</footer>
+    <footer class="rodape">
+        <div class="rodape__container">
+            <p class="rodape__texto">Desenvolvido por Bruno Forgiarini  -</p>
+            <p class="rodape__texto">@Beforg  -</p>
+            <p class="rodape__texto">(55) 55 99648-3078  -</p>
+            <p class="rodape__email"><img class="rodape__imagem" src="images/email.png" alt="Logo do email"> bruno.capsqn@gmail.com</p>
+        </div>
+    </footer>
 </body>
 </html>
